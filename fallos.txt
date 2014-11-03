@@ -1,0 +1,62 @@
+
+
+*************DUDAS*************
+
+
+---PARTIDA---
+EjecutaMovimiento:
+ -Cuando hay un error muestro con system.err aparte de los return.
+ -Cuando hago las comprobaciones con if... uso else u otro if
+
+
+IS TERMINADA- En comprobar fila columna, hacen lo mismo pero con distinta
+orden de f y c..¿ hago dos metodos para cada uno o uno solo pero con distinto orden 
+de parametros?
+
+UNDO:
+-¿Si se puede deshacer? siempre hay un movimiento!! siempre se puede 
+deschacer.. en que casos no se puede???
+
+
+-comprobar que fila y column son validas?
+-comprobar que contador se puede decrementar? SI ES CERO 
+DIRECTAMENTE NO ENTRA ...¿POR SI ACASO?
+
+EN UNDO Y EN EJECUTA MOVIMIENTO TENGO DOS METODOS QUE HACEN LO MISMO
+SOLO QUE UNO TE LO HACE CON VACIA Y OTRO CON !=...
+
+-Undo utiliza casilla llena: en teoria siempre comprobare una 
+columna que tenga fichas.. ¿hace falta informar que esta todo vacia?
+
+------TABLERO--------
+set casilla ¿Si casilla no valida?-> muestro mensaje de error
+
+
+-----------REGISTRO---------------
+la constante haca falta poner private o public ?
+
+SAVEMOV:
+ - hace falta que compruebe la columna dentro? en la llamada tambien =?
+
+
+
+
+-----------------------------------------------------------------------------------
+
+
+**********************KUROSH alsarawy***************************
+
+----REGISSTRO-----
+-desplazaarray:  este metodo solo tiene que desplazar.. no desplazaras y colocar!!!
+
+
+
+MIRAR:
+ejecuta movimiento, comprobacion para saber si se puede hacer un movimiento
+casilla vacia(partida): este me da la fila donde se podra colocar el movimiento
+casilla llena(partida): lo uso para saber en undo la fila donde se produjo el ultimo movi
+tablero!! to string.. utilizo un metodo que me diga que ficha tengo que pintar
+para pintar +----+ 12345 no hace falta meterlo en un for.. esas dos instrucciones
+siempre se haran se pone a pelo
+
+
